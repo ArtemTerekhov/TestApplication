@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WCFConsoleClient.exe" version="1.0.0.0" publicKeyToken="2e0dfa7912846cc9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WCFConsoleClient" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WCFConsoleClient.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WCFConsoleClient.exe" size="7128">
+      <assemblyIdentity name="WCFConsoleClient" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7BKZjef2flp/gjyZNTjBjWWYjb624w98UClI4w6kV3s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WCFConsoleClient.exe.config" size="633">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jho2hOEZ+de4MFvbZyruepReKs19A9rZmkqscxo9M6I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-Q0Q2QTO\Asus" issuerKeyHash="635e94670bb1f97342cbad06dcf1f20f25c48300" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>b+YWyjIjmZsLIJeRzgZAU6yrwxjSxTHc6Kuo8WnpQwE=</DigestValue></Reference></SignedInfo><SignatureValue>MoORYyrqypRrA8LEjFEEACmmKFAOMW1W7DyTFUASzbxzYznA9Q1c4prk869HOPD7SEPmZPBw5hzLlEAss10Qw3injLUwxtO9Urm7liEEGfVl2+FYUBlxPAsNmmknR/y7VZegMjqVkDOLTMjl0jkxBlOmDndgWDtKAy2ojFYN/qQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rn5UjGPBor1QB87ECjMB09Lp648EydZ5EZIKnjAXrkDHmqsw2K98Tm4ryvKlWmpJvU+3XQa6EzTwm4gT5jIUJwblkGIUVmEJMK1lyYE4cTSWk7D5DB60sPSOfowOyjteji2VIJCIwBIkBMzUTpv77w8W93Ly4dXkRnLbvs9zv2k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0143e969f1a8abe8dc31c5d218c3abac534006ce9197200b9b992332ca16e66f" Description="" Url=""><as:assemblyIdentity name="WCFConsoleClient.exe" version="1.0.0.0" publicKeyToken="2e0dfa7912846cc9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-Q0Q2QTO\Asus</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/r/Fs6GTs5FBKeHckAawExl1J/wOUYR4tZEaSucCzfY=</DigestValue></Reference></SignedInfo><SignatureValue>gA83fmfqK7XA2Jcf1nA7271lcbF/QHyDUwg2tfvn1mmhORmlSNHhh5vafOIxM+0vWA490w5DZzIqe1uu7ph04FFP6zDtjW3gZm6hI1NnSPCQ9yN7fL1GzwXG373AQInXzECgmTgFpYkh7Eehitmz96l7n9NaunZExiuIwnhAaEw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rn5UjGPBor1QB87ECjMB09Lp648EydZ5EZIKnjAXrkDHmqsw2K98Tm4ryvKlWmpJvU+3XQa6EzTwm4gT5jIUJwblkGIUVmEJMK1lyYE4cTSWk7D5DB60sPSOfowOyjteji2VIJCIwBIkBMzUTpv77w8W93Ly4dXkRnLbvs9zv2k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQX41C74/cIq5D/N31RAb3xjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAFEAMABRADIAUQBUAE8AXABBAHMAdQBzMB4XDTIyMTAxMDEwMjgyNVoXDTIzMTAxMDE2MjgyNVowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBRADAAUQAyAFEAVABPAFwAQQBzAHUAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArn5UjGPBor1QB87ECjMB09Lp648EydZ5EZIKnjAXrkDHmqsw2K98Tm4ryvKlWmpJvU+3XQa6EzTwm4gT5jIUJwblkGIUVmEJMK1lyYE4cTSWk7D5DB60sPSOfowOyjteji2VIJCIwBIkBMzUTpv77w8W93Ly4dXkRnLbvs9zv2kCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBbmYYDCzkGN/GSZNoeEPmC9qrvqSodoW/vVx2VbkU4I2wFqgZ19mcnsG0kI3/n1OKNgZk1a3ic7BvXbpXwWrQjexbPclODBcJ1Wfs+ju+PDFBZ59ewfrJ5+Zrlf03GM3cYNlmNu/05RiIa4YnZso0QZ1O6HDHvfRrXfJp1WB2D+Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestApplication</name>
+    </assembly>
+    <members>
+        <member name="M:TestApplication.Controllers.ClientsController.GetClients">
+             <summary>
+             Получить список клиентов. 
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 GET /api/getclients
+                 
+             </remarks>
+             <response code="200">Возвращает список клиентов в формате JSON</response>
+             <response code="400">Возвращает сообщение об ошибке запроса данных </response>
+        </member>
+        <member name="M:TestApplication.Controllers.ClientsController.GetClient(System.String)">
+             <summary>
+             Получить информацию о клиенте. 
+             </summary>
+             <param name="clientId" example="1">
+             Client ID
+             </param>
+             <remarks>
+             Пример запроса:
+            
+                 GET /api/getclient/1
+                 
+             </remarks>
+             <response code="200">Возвращает информацию о клиенте в формате JSON</response>
+             <response code="400">Возвращает сообщение об ошибке запроса данных </response>
+        </member>
+        <member name="M:TestApplication.Controllers.ClientsController.GetGenders">
+             <summary>
+             Получить список полов. 
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 GET /api/getgenders
+                 
+             </remarks>
+             <response code="200">Возвращает список полов в формате JSON</response>
+             <response code="400">Возвращает сообщение об ошибке запроса данных </response>
+        </member>
+        <member name="M:TestApplication.Controllers.ClientsController.GetLocations">
+             <summary>
+             Получить список населённых пунктов. 
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 GET /api/getlocations
+                 
+             </remarks>
+             <response code="200">Возвращает список населённых пунктов в формате JSON</response>
+             <response code="400">Возвращает сообщение об ошибке запроса данных </response>
+        </member>
+        <member name="M:TestApplication.Controllers.ClientsController.AddClient(TestApplication.Models.ClientInputs)">
+             <summary>
+             Добавление клиента. 
+             </summary>
+             <param name="inputs">Модель клиента в формате JSON</param>
+             <remarks>
+             Пример запроса:
+            
+                 POST /api/addclient
+                 
+                 тело запроса
+                 {
+                     "ClientId": 0,
+                     "Name": "Артём Терехов",
+                     "GenderId": 1,
+                     "LocationId": 2
+                 }
+                 
+             </remarks>
+             <response code="200">Возвращает успешный результат добавления клиента</response>
+             <response code="400">Возвращает сообщение об ошибке обработки данных</response>
+        </member>
+        <member name="M:TestApplication.Controllers.ClientsController.EditClient(TestApplication.Models.ClientInputs)">
+             <summary>
+             Редактирование клиента. 
+             </summary>
+             <param name="inputs">Модель клиента в формате JSON</param>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /api/editclient
+                 
+                 тело запроса
+                 {
+                     "ClientId": 1,
+                     "Name": "Артём Терехов",
+                     "GenderId": 1,
+                     "LocationId": 2
+                 }
+                 
+             </remarks>
+             <response code="200">Возвращает успешный результат редактирования клиента</response>
+             <response code="400">Возвращает сообщение об ошибке обработки данных</response>
+        </member>
+        <member name="M:TestApplication.Controllers.ClientsController.DeleteClient(System.String)">
+             <summary>
+             Удаление клиента. 
+             </summary>
+             <param name="clientId" example="1">
+             Client ID
+             </param>
+             <remarks>
+             Пример запроса:
+            
+                 DELETE /api/deleteclient/1
+                 
+             </remarks>
+             <response code="200">Возвращает успешный результат удаления клиента</response>
+             <response code="400">Возвращает сообщение об ошибке обработки данных </response>
+        </member>
+    </members>
+</doc>

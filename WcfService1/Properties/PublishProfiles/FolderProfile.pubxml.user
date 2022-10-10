@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\sites\TestWebService</_PublishTargetUrl>
+    <History>True|2022-10-10T13:03:45.0134105Z;True|2022-10-10T11:54:52.1098980+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/16/2020 23:38:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/16/2020 23:38:56</publishTime>
+    </File>
+    <File Include="bin/WcfService1.dll">
+      <publishTime>10/10/2022 16:03:44</publishTime>
+    </File>
+    <File Include="bin/WcfService1.pdb">
+      <publishTime>10/10/2022 16:03:44</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>10/10/2022 11:09:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/10/2022 16:03:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+D:\Projects\TestApplication\WCFConsoleClient\bin\Debug\WCFConsoleClient.exe.config
+D:\Projects\TestApplication\WCFConsoleClient\bin\Debug\WCFConsoleClient.exe
+D:\Projects\TestApplication\WCFConsoleClient\bin\Debug\WCFConsoleClient.pdb
+D:\Projects\TestApplication\WCFConsoleClient\obj\Debug\WCFConsoleClient.csproj.AssemblyReference.cache
+D:\Projects\TestApplication\WCFConsoleClient\obj\Debug\WCFConsoleClient.csproj.SuggestedBindingRedirects.cache
+D:\Projects\TestApplication\WCFConsoleClient\obj\Debug\WCFConsoleClient.csproj.CoreCompileInputs.cache
+D:\Projects\TestApplication\WCFConsoleClient\obj\Debug\WCFConsoleClient.exe
+D:\Projects\TestApplication\WCFConsoleClient\obj\Debug\WCFConsoleClient.pdb
+D:\Projects\TestApplication\WCFConsoleClient\bin\Debug\WCFConsoleClient.exe.manifest
+D:\Projects\TestApplication\WCFConsoleClient\bin\Debug\WCFConsoleClient.application
+D:\Projects\TestApplication\WCFConsoleClient\obj\Debug\WCFConsoleClient.exe.manifest
+D:\Projects\TestApplication\WCFConsoleClient\obj\Debug\WCFConsoleClient.application

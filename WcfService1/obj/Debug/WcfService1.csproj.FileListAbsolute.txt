@@ -1,0 +1,12 @@
+D:\Projects\TestApplication\WcfService1\bin\WcfService1.dll.config
+D:\Projects\TestApplication\WcfService1\bin\WcfService1.dll
+D:\Projects\TestApplication\WcfService1\bin\WcfService1.pdb
+D:\Projects\TestApplication\WcfService1\bin\EntityFramework.dll
+D:\Projects\TestApplication\WcfService1\bin\EntityFramework.SqlServer.dll
+D:\Projects\TestApplication\WcfService1\bin\EntityFramework.xml
+D:\Projects\TestApplication\WcfService1\bin\EntityFramework.SqlServer.xml
+D:\Projects\TestApplication\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
+D:\Projects\TestApplication\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+D:\Projects\TestApplication\WcfService1\obj\Debug\WcfService1.csproj.CopyComplete
+D:\Projects\TestApplication\WcfService1\obj\Debug\WcfService1.dll
+D:\Projects\TestApplication\WcfService1\obj\Debug\WcfService1.pdb
